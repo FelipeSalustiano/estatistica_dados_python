@@ -46,5 +46,5 @@ print(f'\nAcurácia da Árvore de Decisão: {accuracy_dt:.2f}')
 print(f'Precisão da Árvore de Decisão: {precision_dt:.2f}')
 print(f'Recall (sensibilidade) da Árvore de Decisão: {recall_dt:.2f}')
 
-joblib.dump(modelo_lr, 'modelo_regressão_logistica.pkl')
+joblib.dump(modelo_lr, 'modelo_regressao_logistica.pkl')
 joblib.dump(modelo_dt, 'modelo_arvore_decisao.pkl')

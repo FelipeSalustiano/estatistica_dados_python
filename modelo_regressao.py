@@ -6,7 +6,7 @@ import joblib
 
 df = pd.read_csv('clientes-v3-preparado.csv')
 
-X = df[['anos_experiencia', 'idade', 'nivel_educacao_cod', 'area_atuacao_cod']] # Preditor
+X = df[['idade', 'anos_experiencia','nivel_educacao_cod', 'area_atuacao_cod']] # Preditor
 Y = df[['salario']] # Prever 
 
 # Dividir dados: Treinamento e Teste 
